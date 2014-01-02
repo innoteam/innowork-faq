@@ -1,8 +1,8 @@
 <?php
 // ----- Initialization -----
 //
-require_once('innowork/crm/InnoworkFaqCategory.php');
-require_once('innowork/crm/InnoworkFaqNode.php');
+require_once('innowork/support/InnoworkFaqCategory.php');
+require_once('innowork/support/InnoworkFaqNode.php');
 require_once('innomatic/wui/Wui.php');
 require_once('innomatic/wui/widgets/WuiWidget.php');
 require_once('innomatic/wui/widgets/WuiContainerWidget.php');
@@ -22,7 +22,7 @@ $gInnowork_core = InnoworkCore::instance('innoworkcore',
     );
 
 $gLocale = new LocaleCatalog(
-    'innowork-crm::innoworkfaq_domain_main',
+    'innowork-support::innoworkfaq_domain_main',
     \Innomatic\Core\InnomaticContainer::instance('\Innomatic\Core\InnomaticContainer')->getCurrentUser()->getLanguage()
     );
 
