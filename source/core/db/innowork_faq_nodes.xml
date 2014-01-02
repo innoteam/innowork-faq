@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<database>
+
+    <table name="innowork_faq_nodes">
+
+        <field name="id" type="integer" notnull="1"/>
+        <field name="ownerid" type="integer" notnull="1"/>
+        <field name="trashed" type="boolean"/>
+        <field name="parentid" type="integer"/>
+        <field name="question" type="text"/>
+        <field name="answer" type="text"/>
+
+        <key field="id" type="unique"/>
+
+    </table>
+
+    <sequence name="innowork_faq_nodes_id_seq"/>
+
+</database>
