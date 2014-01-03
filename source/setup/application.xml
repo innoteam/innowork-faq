@@ -40,9 +40,9 @@
 	<components>
 
 		<domaingroup name="support"
-			catalog="innowork-support::innoworkfaq_misc" />
+			catalog="innowork-faq::innoworkfaq_misc" />
 
-        <catalog name="innowork-support" />
+        <catalog name="innowork-faq" />
 
 		<domainpanel name="innoworkfaq" file="innoworkfaq.php"
 			category="support" themeicon="info" themeicontype="apps"
