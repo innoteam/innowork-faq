@@ -46,24 +46,24 @@
 
 		<domainpanel name="innoworkfaq" file="innoworkfaq.php"
 			category="support" themeicon="info" themeicontype="apps"
-			catalog="innowork-support::innoworkfaq_misc" />
+			catalog="innowork-faq::innoworkfaq_misc" />
 
 		<domaintable name="innowork_faq_categories"
 			file="innowork_faq_categories.xml" />
 		<domaintable name="innowork_faq_nodes"
 			file="innowork_faq_nodes.xml" />
 
-		<class name="innowork/support/InnoworkFaqCategory.php" />
-		<class name="innowork/support/InnoworkFaqNode.php" />
+		<class name="innowork/faq/InnoworkFaqCategory.php" />
+		<class name="innowork/faq/InnoworkFaqNode.php" />
 
 		<innoworkitemtype name="faqcategory" file="faqcategory"
-			catalog="innowork-support::innoworkfaq_misc" classfile="innowork/support/InnoworkFaqCategory.php"
+			catalog="innowork-faq::innoworkfaq_misc" classfile="innowork/faq/InnoworkFaqCategory.php"
 			classname="InnoworkFaqCategory" icon="info" icontype="apps"
 			domainpanel="innoworkfaq" miniicon="info"
 			summaryname="faqcategory-name" />
 
 		<innoworkitemtype name="faqnode" file="faqnode"
-			catalog="innowork-support::innoworkfaq_misc" classfile="innowork/support/InnoworkFaqNode.php"
+			catalog="innowork-faq::innoworkfaq_misc" classfile="innowork/faq/InnoworkFaqNode.php"
 			classname="InnoworkFaqNode" icon="info" icontype="apps"
 			domainpanel="innoworkfaq" miniicon="info"
 			summaryname="faqnode-name" showmode="app" />

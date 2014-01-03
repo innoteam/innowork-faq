@@ -1,8 +1,8 @@
 <?php
 // ----- Initialization -----
 //
-require_once('innowork/support/InnoworkFaqCategory.php');
-require_once('innowork/support/InnoworkFaqNode.php');
+require_once('innowork/faq/InnoworkFaqCategory.php');
+require_once('innowork/faq/InnoworkFaqNode.php');
 require_once('innomatic/wui/Wui.php');
 require_once('innomatic/wui/widgets/WuiWidget.php');
 require_once('innomatic/wui/widgets/WuiContainerWidget.php');
