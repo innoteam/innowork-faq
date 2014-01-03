@@ -22,7 +22,7 @@ $gInnowork_core = InnoworkCore::instance('innoworkcore',
     );
 
 $gLocale = new LocaleCatalog(
-    'innowork-support::innoworkfaq_domain_main',
+    'innowork-faq::innoworkfaq_domain_main',
     \Innomatic\Core\InnomaticContainer::instance('\Innomatic\Core\InnomaticContainer')->getCurrentUser()->getLanguage()
     );
 
